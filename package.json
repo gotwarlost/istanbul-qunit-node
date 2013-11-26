@@ -1,0 +1,12 @@
+{
+    "name": "istanbul-qunit-node-example",
+    "version": "0.0.1",
+    "devDependencies": {
+        "qunit": "git://github.com/gotwarlost/node-qunit.git#istanbul-coverage"
+    },
+    "scripts": {
+        "test": "export DIR=node_modules/qunit/support/qunit/qunit && mkdir -p $DIR && cp support/qunit.js $DIR/ && node test/run-tests.js"
+    }
+}
+
+
